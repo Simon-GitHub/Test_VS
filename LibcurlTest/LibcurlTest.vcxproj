@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1BE9412A-8C49-4676-9F5C-49CD457BC98A}</ProjectGuid>
+    <RootNamespace>LibcurlTest</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)/depend/libcurl/include;D:\Qt\Qt5.5.1\5.5\msvc2010\include;D:\Qt\Qt5.5.1\5.5\msvc2010\include\QtWidgets;D:\Qt\Qt5.5.1\5.5\msvc2010\include\QtGui;D:\Qt\Qt5.5.1\5.5\msvc2010\include\QtCore;D:\Qt\Qt5.5.1\5.5\msvc2010\.\mkspecs\win32-msvc2010;D:\Qt\Qt5.5.1\5.5\msvc2010\include\QtQml;D:\Qt\Qt5.5.1\5.5\msvc2010\include\QtNetwork;D:\Qt\Qt5.5.1\5.5\msvc2010\include\QtQuick;D:\Qt\Qt5.5.1\5.5\msvc2010\include\QtOpenGL;D:\Qt\Qt5.5.1\5.5\msvc2010\include\QtQuickWidgets;D:\Qt\Qt5.5.1\5.5\msvc2010\include\QtWebKitWidgets;D:\Qt\Qt5.5.1\5.5\msvc2010\include\QtWebKit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/depend/libcurl/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcurl.lib;D:\Qt\Qt5.5.1\5.5\msvc2010\lib\Qt5OpenGLd.lib;D:\Qt\Qt5.5.1\5.5\msvc2010\lib\Qt5QuickWidgetsd.lib;D:\Qt\Qt5.5.1\5.5\msvc2010\lib\Qt5WebKitWidgetsd.lib;D:\Qt\Qt5.5.1\5.5\msvc2010\lib\Qt5Quickd.lib;D:\Qt\Qt5.5.1\5.5\msvc2010\lib\Qt5Qmld.lib;D:\Qt\Qt5.5.1\5.5\msvc2010\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.5.1\5.5\msvc2010\lib\Qt5WebKitd.lib;D:\Qt\Qt5.5.1\5.5\msvc2010\lib\Qt5Networkd.lib;D:\Qt\Qt5.5.1\5.5\msvc2010\lib\Qt5Guid.lib;D:\Qt\Qt5.5.1\5.5\msvc2010\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/depend/libcurl/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)/depend/libcurl/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcurl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="broken_point_continuingly_transferring.hpp" />
+    <ClInclude Include="broken_point_continuingly_transferring_2.hpp" />
+    <ClInclude Include="curl_get.hpp" />
+    <ClInclude Include="fileupload.hpp" />
+    <ClInclude Include="ftpupload.hpp" />
+    <ClInclude Include="ftpuploadresume.hpp" />
+    <ClInclude Include="libcurl_http_download.hpp" />
+    <ClInclude Include="libcurl_http_upload.hpp" />
+    <ClInclude Include="post_callback.hpp" />
+    <ClInclude Include="post_callback_2.hpp" />
+    <ClInclude Include="test_libcurl.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

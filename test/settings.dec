@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<configuration>
+    <section name="App">
+        <entry key="class" value="CMonAppSystem" />
+        <entry key="PageUpdateUUUUUUUUime" value="50" />
+    </section>
+    <section name="RtServer">
+        <entry key="ip" value="localhost" />
+        <entry key="port" value="4704" />
+        <entry key="debug" value="true" />
+    </section>
+    <section name="MUUUUUUUUP">
+        <entry key="ip" value="127.0.0.1" />
+        <entry key="port" value="8001" />
+    </section>
+    <section name="MUUUUUUUUPMSG">
+        <entry key="logFile" value="1" />
+        <entry key="OddRowColor" value="52479" />
+        <entry key="EvenRowColor" value="128" />
+    </section>
+    <section name="UUUUUUUUCC">
+        <entry key="tcc" value="C91" />
+        <entry key="user" value="OBDH" />
+        <entry key="passwd" value="AA" />
+    </section>
+    <section name="InfoDB">
+        <entry key="filename" value="ZY300002.db" />
+        <entry key="server" value="localhost" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysafer.com" />
+        <entry key="path" value="/ZY300002.db" />
+    </section>
+    <section name="DataCache">
+        <entry key="XMaxSpanMinutes" value="1440" />
+    </section>
+    <section name="ZY300002.DataCache">
+        <entry key="DAUUUUUUUUE" value="Z001/DAUUUUUUUUE/DAHE/DAHS/DAHUUUUUUUU/DARE/DARS/DARUUUUUUUU/DASE/DASUUUUUUUU" />
+        <entry key="DAUUUUUUUUS" value="DAUUUUUUUUS/DAUUUUUUUUP" />
+    </section>
+    <section name="BD2AUUUUUUUUM01.DataCache">
+        <entry key="DAUUUUUUUUE" value="Z001/DAUUUUUUUUE/DAHE/DAHS/DAHUUUUUUUU/DARE/DARS/DARUUUUUUUU/DASE/DASUUUUUUUU" />
+        <entry key="DAUUUUUUUUS" value="DAUUUUUUUUS/DAUUUUUUUUP" />
+    </section>
+    <section name="DataListView">
+        <entry key="OddRowColor" value="12632256" />
+        <entry key="EvenRowColor" value="16777215" />
+    </section>
+    <section name="SelectDlg">
+        <entry key="Filter" value="0" />
+        <entry key="ParamUUUUUUUUype" value="DAUUUUUUUUE" />
+        <entry key="ParamSubsystem" value="A" />
+    </section>
+    <section name="BatchBinding">
+        <entry key="BindValue" value="1" />
+        <entry key="BkColorList" value="0:0;1:FFCC00;2:FFCCFF" />
+    </section>
+    <section name="BatchPosition">
+        <entry key="colWidth1" value="0" />
+        <entry key="colWidth2" value="40" />
+        <entry key="rowWidth" value="10" />
+        <entry key="MarginUUUUUUUUop" value="30" />
+        <entry key="MarginBottom" value="30" />
+    </section>
+    <section name="ListSwitchFormat.Value">
+        <entry key="FontName" value="宋体" />
+        <entry key="FontSize" value="11" />
+        <entry key="FontColor" value="0" />
+        <entry key="BackColor" value="16777215" />
+        <entry key="Width" value="160" />
+        <entry key="Height" value="24" />
+    </section>
+    <section name="ListSwitchFormat.Name">
+        <entry key="FontName" value="宋体" />
+        <entry key="FontSize" value="11" />
+        <entry key="FontColor" value="0" />
+        <entry key="BackColor" value="52377" />
+        <entry key="Width" value="160" />
+        <entry key="Height" value="24" />
+    </section>
+    <section name="ListSwitchFormat.Code">
+        <entry key="FontName" value="宋体" />
+        <entry key="FontSize" value="11" />
+        <entry key="FontColor" value="0" />
+        <entry key="BackColor" value="8441838" />
+        <entry key="Width" value="160" />
+        <entry key="Height" value="24" />
+    </section>
+    <section name="ListSwitchPos">
+        <entry key="colWidth1" value="10" />
+        <entry key="colWidth2" value="40" />
+        <entry key="rowWidth" value="8" />
+        <entry key="MarginUUUUUUUUop" value="30" />
+        <entry key="MarginBottom" value="30" />
+    </section>
+    <section name="ZY300002.RtServer">
+        <entry key="ip" value="10.65.38.243" />
+        <entry key="port" value="32090" />
+    </section>
+    <section name="ZY300002.InfoDB">
+        <entry key="server" value="localhost" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="/ZY300002.db" />
+        <entry key="autodownload" value="1" />
+        <entry key="autocheck" value="1" />
+        <entry key="checktime" value="30" />
+    </section>
+    <section name="BD2AUUUUUUUUM01.RtServer">
+        <entry key="ip" value="10.65.38.108" />
+        <entry key="port" value="14703" />
+    </section>
+    <section name="BD2AUUUUUUUUM01.InfoDB">
+        <entry key="server" value="localhost" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysafer.com" />
+        <entry key="path" value="/BD2AUUUUUUUUM01.db" />
+        <entry key="autodownload" value="1" />
+        <entry key="autocheck" value="1" />
+        <entry key="checktime" value="30" />
+    </section>
+    <section name="ZY300002.RefreshConfig">
+        <entry key="DAUUUUUUUUAS" value="DAHE/DAUUUUUUUUE" />
+        <entry key="PageUpdateMode" value="1" />
+    </section>
+    <section name="BD2AUUUUUUUUM01.RefreshConfig">
+        <entry key="DAUUUUUUUUAS" value="" />
+        <entry key="PageUpdateMode" value="1" />
+    </section>
+    <section name="BatchFormat.Value">
+        <entry key="FontName" value="宋体" />
+        <entry key="FontSize" value="11" />
+        <entry key="FontColor" value="0" />
+        <entry key="BackColor" value="16777215" />
+        <entry key="Width" value="160" />
+        <entry key="Height" value="24" />
+    </section>
+    <section name="BatchFormat.Name">
+        <entry key="FontName" value="宋体" />
+        <entry key="FontSize" value="11" />
+        <entry key="FontColor" value="0" />
+        <entry key="BackColor" value="8441838" />
+        <entry key="Width" value="160" />
+        <entry key="Height" value="24" />
+    </section>
+    <section name="BatchFormat.Code">
+        <entry key="FontName" value="宋体" />
+        <entry key="FontSize" value="11" />
+        <entry key="FontColor" value="0" />
+        <entry key="BackColor" value="8441838" />
+        <entry key="Width" value="160" />
+        <entry key="Height" value="24" />
+    </section>
+    <section name="GF300001.RtServer">
+        <entry key="ip" value="10.65.14.66" />
+        <entry key="port" value="60090" />
+    </section>
+    <section name="GF300001.InfoDB">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+        <entry key="autodownload" value="1" />
+        <entry key="autocheck" value="1" />
+        <entry key="checktime" value="30" />
+    </section>
+    <section name="GF300001.DataCache">
+        <entry key="DAUUUUUUUUE" value="Z001/DAUUUUUUUUE/DAHE/DAHS/DAHUUUUUUUU/DARE/DARS/DARUUUUUUUU/DASE/DASUUUUUUUU" />
+        <entry key="DAUUUUUUUUS" value="DAUUUUUUUUS/DAUUUUUUUUP" />
+    </section>
+    <section name="BD2AUUUUUUUUM02.RtServer">
+        <entry key="ip" value="10.65.38.108" />
+        <entry key="port" value="14704" />
+    </section>
+    <section name="BD2AUUUUUUUUM02.InfoDB">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+        <entry key="autodownload" value="1" />
+        <entry key="autocheck" value="1" />
+        <entry key="checktime" value="30" />
+    </section>
+    <section name="BD2AUUUUUUUUM02.DataCache">
+        <entry key="DAUUUUUUUUE" value="Z001/DAUUUUUUUUE/DAHE/DAHS/DAHUUUUUUUU/DARE/DARS/DARUUUUUUUU/DASE/DASUUUUUUUU" />
+        <entry key="DAUUUUUUUUS" value="DAUUUUUUUUS/DAUUUUUUUUP" />
+    </section>
+    <section name="CE5F0001.RtServer">
+        <entry key="ip" value="10.65.14.198" />
+        <entry key="port" value="14190" />
+    </section>
+    <section name="CE5F0001.InfoDB">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+        <entry key="autodownload" value="1" />
+        <entry key="autocheck" value="1" />
+        <entry key="checktime" value="30" />
+    </section>
+    <section name="CE5F0001.DataCache">
+        <entry key="DAUUUUUUUUE" value="Z001/DAFE/DAGE/DAPE" />
+        <entry key="DAUUUUUUUUS" value="DAUUUUUUUUS/DAUUUUUUUUP" />
+    </section>
+    <section name="CE5G0001.RtServer">
+        <entry key="ip" value="10.65.14.198" />
+        <entry key="port" value="14290" />
+    </section>
+    <section name="CE5G0001.InfoDB">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+        <entry key="autodownload" value="1" />
+        <entry key="autocheck" value="1" />
+        <entry key="checktime" value="30" />
+    </section>
+    <section name="CE5G0001.DataCache">
+        <entry key="DAUUUUUUUUE" value="Z001/DAFE/DAGE/DAPE" />
+        <entry key="DAUUUUUUUUS" value="DAUUUUUUUUS/DAUUUUUUUUP" />
+    </section>
+    <section name="CE5P0001.RtServer">
+        <entry key="ip" value="10.65.14.198" />
+        <entry key="port" value="14090" />
+    </section>
+    <section name="CE5P0001.InfoDB">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+        <entry key="autodownload" value="1" />
+        <entry key="autocheck" value="1" />
+        <entry key="checktime" value="30" />
+    </section>
+    <section name="CE5P0001.DataCache">
+        <entry key="DAUUUUUUUUE" value="Z001/DAFE/DAGE/DAPE" />
+        <entry key="DAUUUUUUUUS" value="DAUUUUUUUUS/DAUUUUUUUUP" />
+    </section>
+    <section name="GF300001.RefreshConfig">
+        <entry key="DAUUUUUUUUAS" value="" />
+        <entry key="PageUpdateMode" value="1" />
+    </section>
+    <section name="BD2AUUUUUUUUM02.RefreshConfig">
+        <entry key="DAUUUUUUUUAS" value="" />
+        <entry key="PageUpdateMode" value="1" />
+    </section>
+    <section name="CE5F0001.RefreshConfig">
+        <entry key="DAUUUUUUUUAS" value="" />
+        <entry key="PageUpdateMode" value="1" />
+    </section>
+    <section name="CE5G0001.RefreshConfig">
+        <entry key="DAUUUUUUUUAS" value="" />
+        <entry key="PageUpdateMode" value="1" />
+    </section>
+    <section name="CE5P0001.RefreshConfig">
+        <entry key="DAUUUUUUUUAS" value="" />
+        <entry key="PageUpdateMode" value="1" />
+    </section>
+    <section name="ZY300002.SeqFtp">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+    </section>
+    <section name="BD2AUUUUUUUUM01.SeqFtp">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+    </section>
+    <section name="GF300001.SeqFtp">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+    </section>
+    <section name="BD2AUUUUUUUUM02.SeqFtp">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+    </section>
+    <section name="CE5F0001.SeqFtp">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+    </section>
+    <section name="CE5G0001.SeqFtp">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+    </section>
+    <section name="CE5P0001.SeqFtp">
+        <entry key="server" value="" />
+        <entry key="port" value="21" />
+        <entry key="user" value="anonymous" />
+        <entry key="passwd" value="tby@anysfer.com" />
+        <entry key="path" value="" />
+    </section>
+    <section name="UUUUUUUU.RtServer">
+        <entry key="ip" value="" />
+        <entry key="port" value="2000" />
+    </section>
+    <section name="UUUUUUUU.InfoDB">
+        <entry key="server" value="10.65.14.188" />
+        <entry key="port" value="21" />
+        <entry key="user" value="root" />
+        <entry key="passwd" value="root188" />
+        <entry key="path" value="C:\Users\HP\Desktop\501DataDisplay\Monitor_CE5\Monitor\UUUUUUUU\UUUUUUUU.db" />
+        <entry key="autodownload" value="0" />
+        <entry key="autocheck" value="0" />
+        <entry key="checktime" value="30" />
+    </section>
+    <section name="UUUUUUUU.DataCache">
+        <entry key="DAUUUUUUUUE" value="Z001/DAUUUUUUUUE/DAUUUUUUUUD" />
+        <entry key="DAUUUUUUUUS" value="DAUUUUUUUUS/DAUUUUUUUUP" />
+    </section>
+    <section name="UDPConfig">
+        <entry key="ports" value="34002,34009" />
+        <entry key="enable" value="1" />
+    </section>
+</configuration>
+
+
+
+
+
