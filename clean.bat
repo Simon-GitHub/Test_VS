@@ -1,6 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion  
 
+REM 删除当前文件夹及子文件夹下所有的Debug文件夹（跳过./depend文件夹）
 for /d %%a in (./*) do (
 	set var=%%a
 	REM 由于depend下boost/include中有以debug命名的源文件夹，因此要排除depend目录
