@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibcurlTest", "LibcurlTest\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonParse", "JsonParse\JsonParse.vcxproj", "{4F5A41C6-CBA7-4239-89C0-0A942E3AE9FC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnalysisJson", "AnalysisJson\AnalysisJson.vcxproj", "{D142FBCE-8437-48F6-8275-F101BF989471}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -91,6 +93,12 @@ Global
 		{4F5A41C6-CBA7-4239-89C0-0A942E3AE9FC}.Release|Win32.ActiveCfg = Release|Win32
 		{4F5A41C6-CBA7-4239-89C0-0A942E3AE9FC}.Release|Win32.Build.0 = Release|Win32
 		{4F5A41C6-CBA7-4239-89C0-0A942E3AE9FC}.Release|x64.ActiveCfg = Release|Win32
+		{D142FBCE-8437-48F6-8275-F101BF989471}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D142FBCE-8437-48F6-8275-F101BF989471}.Debug|Win32.Build.0 = Debug|Win32
+		{D142FBCE-8437-48F6-8275-F101BF989471}.Debug|x64.ActiveCfg = Debug|Win32
+		{D142FBCE-8437-48F6-8275-F101BF989471}.Release|Win32.ActiveCfg = Release|Win32
+		{D142FBCE-8437-48F6-8275-F101BF989471}.Release|Win32.Build.0 = Release|Win32
+		{D142FBCE-8437-48F6-8275-F101BF989471}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
