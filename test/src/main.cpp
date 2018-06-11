@@ -17,10 +17,12 @@
 #include "AESEncodeDecode_2.hpp"
 #include "GetHardwareInformation.hpp"
 #include "test_memory_allocation.hpp"
+#include "test_shared_ptr.hpp"
 
 int main()
 {
 	test();
+	test_shared_ptr();
 	//test_memory_allocation();
 	//multiset_multimap();
 	//conveny("HY",100);

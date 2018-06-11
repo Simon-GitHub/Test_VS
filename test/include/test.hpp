@@ -14,10 +14,23 @@
 #include "ParentChildConvert.hpp"
 #include <map>
 #include <set>
+#include <stdio.h>
 
 // Ð¡Ï¸½Ú²âÊÔ
 void test()
 {
+	{
+		char string[50];
+
+		sprintf( string, "%x", 0xEB90 );
+		std::string str(string);
+		
+		char string2[50] = "EB902100";
+		unsigned int value = 0;
+		sscanf(string2, "%8x", &value);
+		unsigned int file_number = 0xFFFFFFFF;
+		int i = 0xFF;
+	}
 	{
 		std::string str = "dafgagagagagertyu";
 		str.erase(--str.end());

@@ -83,6 +83,9 @@ bool ReadXmlFile(string& szFileName)
 		//获得第一个Person的name节点和age节点和ID属性。
 		TiXmlElement *NameElement = FirstPerson->FirstChildElement();
 		TiXmlElement *AgeElement = NameElement->NextSiblingElement();
+		std::string id = FirstPerson->Attribute("ID");
+		int id2Int = 0;
+		std::string id2Str = FirstPerson->Attribute("ID2", &id2Int);
 		TiXmlAttribute *IDAttribute = FirstPerson->FirstAttribute();
 		TiXmlAttribute *IDAttribute2 = IDAttribute->Next();
 		TiXmlAttribute *IDAttribute3 = FirstPerson->LastAttribute();
