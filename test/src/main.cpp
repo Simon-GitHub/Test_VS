@@ -21,6 +21,9 @@
 
 int main()
 {
+	void* tempPtr = NULL;
+	new (&tempPtr) int(2);
+
 	test();
 	test_shared_ptr();
 	//test_memory_allocation();
