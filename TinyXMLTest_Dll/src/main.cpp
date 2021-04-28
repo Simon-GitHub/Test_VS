@@ -47,6 +47,7 @@ bool CreateXmlFile(string& szFileName)
 		string seperator = "\\";
 		string fullPath = appPath.GetBuffer(0) +seperator+szFileName;
 		myDocument->SaveFile(fullPath.c_str());//保存到文件
+		delete myDocument;
 	}
 	catch (string& e)
 	{
